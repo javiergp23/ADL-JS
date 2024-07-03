@@ -10,9 +10,9 @@
 // document.write("Deporte Favorito: " + deporteFav + "<br/>");
 
 // Obtenermos las notas 1, 2, y 3 y las almacenamosen variables
-var nota1HTML = +("Ingrese la nota 1 de HTML");
-var nota2HTML = +("Ingrese la nota 2 de HTML");
-var nota3HTML = +("Ingrese la nota 3 de HTML");
+var nota1HTML = +prompt("Ingrese la nota 1 de HTML");
+var nota2HTML = +prompt("Ingrese la nota 2 de HTML");
+var nota3HTML = +prompt("Ingrese la nota 3 de HTML");
 
 // Obtenemos los elementos de html y los almacenamos en variables
 var HTML1 = document.getElementById("HTML1");
@@ -27,9 +27,9 @@ HTML3.innerHTML = nota3HTML;
 HTMLPromedio.innerHTML = ((nota1HTML+nota2HTML+nota3HTML)/3).toFixed(2);
 
 // console.log(nota1HTML);
-var nota1CSS = +("Ingrese la nota 1 de CSS");
-var nota2CSS = +("Ingrese la nota 2 de CSS");
-var nota3CSS = +("Ingrese la nota 3 de CSS");
+var nota1CSS = +prompt("Ingrese la nota 1 de CSS");
+var nota2CSS = +prompt("Ingrese la nota 2 de CSS");
+var nota3CSS = +prompt("Ingrese la nota 3 de CSS");
 
 // Obtenemos los elementos de css y los almacenamos en variables
 var CSS1 = document.getElementById("CSS1");
@@ -41,11 +41,11 @@ var CSSPromedio = document.getElementById("CSS3Promedio");
 CSS1.innerHTML = nota1CSS;
 CSS2.innerHTML = nota2CSS;
 CSS3.innerHTML = nota3CSS;
-CSSPromedio.innerHTML = ((nota1CSS) + (nota2CSS) + (nota3CSS)/3).toFixed(2);
+CSSPromedio.innerHTML = ((nota1CSS+nota2CSS+nota3CSS)/3).toFixed(2);
 
-var nota1JAVASCRIPT = +("Ingrese la nota 1 de JAVASCRIPT");
-var nota2JAVASCRIPT = +("Ingrese la nota 2 de JAVASCRIPT");
-var nota3JAVASCRIPT = +("Ingrese la nota 3 de JAVASCRIPT");
+var nota1JAVASCRIPT = +prompt("Ingrese la nota 1 de JAVASCRIPT");
+var nota2JAVASCRIPT = +prompt("Ingrese la nota 2 de JAVASCRIPT");
+var nota3JAVASCRIPT = +prompt("Ingrese la nota 3 de JAVASCRIPT");
 
 // Obtenemos los elementos de javascript y los almacenamos en variables
 var JAVASCRIPT1 = document.getElementById("JAVASCRIPT1");
@@ -57,5 +57,5 @@ var JAVASCRIPTPromedio = document.getElementById("JAVASCRIPTPromedio");
 JAVASCRIPT1.innerHTML = nota1JAVASCRIPT;
 JAVASCRIPT2.innerHTML = nota2JAVASCRIPT;
 JAVASCRIPT3.innerHTML = nota3JAVASCRIPT;
-JAVASCRIPTPromedio.innerHTML = ((nota1JAVASCRIPT) + (nota2JAVASCRIPT) + (nota3JAVASCRIPT)/3).toFixed(2);
+JAVASCRIPTPromedio.innerHTML = ((nota1JAVASCRIPT + nota2JAVASCRIPT + nota3JAVASCRIPT)/3).toFixed(2);
 
