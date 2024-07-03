@@ -8,6 +8,14 @@
 // document.write("Apellido: " + apellido + "<br/>");
 // document.write("Edad: " + edad + "<br/>");
 // document.write("Deporte Favorito: " + deporteFav + "<br/>");
+let nombre = prompt("¿Cual es tu nombre?");
+let carrera = prompt("¿Cual es tu carrera?");
+
+let nombreA = document.getElementById("nombre");
+let carreraA = document.getElementById("carrera");
+
+nombreA.innerHTML = nombre;
+carreraA.innerHTML = carrera;
 
 // Obtenermos las notas 1, 2, y 3 y las almacenamosen variables
 var nota1HTML = +prompt("Ingrese la nota 1 de HTML");
